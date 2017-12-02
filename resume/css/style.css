@@ -10,6 +10,7 @@
 --------------------- */
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 h1, h2 {
@@ -18,7 +19,12 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 55px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 0;
 }
 
 a {
@@ -29,22 +35,40 @@ a:hover {
     text-decoration: none;
 }
 
+.content-wrap {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
 /* Header and Footer
 --------------------- */
 header, footer {
-    /* background: #000000; */
-    /* color: white; */
+    background: #000000;
+    color: white;
+}
+
+/* header */
+
+/* footer */
+footer {
+    text-align: center;
+}
+
+.contact-info a {
+    padding: 10px;
+    display: inline-block;
 }
 
 /* Work and Experience
 --------------------- */
 .work {
-    /* background: #819595; */
+    background: lightblue;
 }
 
 
 /* Education
 --------------------- */
 .education {
-    /* background: #B1B6A6; */
+    background: #B1B6A6;
 }
