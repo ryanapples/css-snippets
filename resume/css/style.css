@@ -1,0 +1,50 @@
+/* Color Palette
+#000000 - black
+#363946 - gray
+#696773 - purple
+#819595 - green
+#B1B6A6 - tan
+*/
+
+/* Global styles
+--------------------- */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+a {
+    color: #819595;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Header and Footer
+--------------------- */
+header, footer {
+    /* background: #000000; */
+    /* color: white; */
+}
+
+/* Work and Experience
+--------------------- */
+.work {
+    /* background: #819595; */
+}
+
+
+/* Education
+--------------------- */
+.education {
+    /* background: #B1B6A6; */
+}
