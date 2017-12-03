@@ -8,6 +8,14 @@
 
 /* Global styles
 --------------------- */
+html {
+    box-sizing: border-box;
+}
+  
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -39,6 +47,20 @@ a:hover {
     max-width: 960px;
     margin: 0 auto;
     padding: 50px;
+    overflow: hidden;
+}
+
+.col-narrow {
+    width: 30%;
+    float: left;
+    min-height: 175px;
+}
+
+.col-wide {
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+    min-height: 175px;  
 }
 
 /* Header and Footer
@@ -46,9 +68,17 @@ a:hover {
 header, footer {
     background: #000000;
     color: white;
+    /* text-align: center; */
+}
+
+header h1, header h2 {
+    margin: 0;
 }
 
 /* header */
+.profile-img {
+    border-radius: 50%;
+}
 
 /* footer */
 footer {
@@ -65,7 +95,6 @@ footer {
 .work {
     background: lightblue;
 }
-
 
 /* Education
 --------------------- */
