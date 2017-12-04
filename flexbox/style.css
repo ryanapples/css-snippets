@@ -49,5 +49,6 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 /* Flexbox */
 .container {
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
+    flex-direction: column;
 }
