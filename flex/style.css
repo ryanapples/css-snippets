@@ -46,3 +46,8 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 }
 .box10 { background:#16a085;}
 
+/* Flexbox */
+.container {
+    display: flex;
+    height: 100vh;
+}
